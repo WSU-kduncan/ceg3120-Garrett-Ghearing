@@ -4,13 +4,13 @@
 <ol>
     <li>Clones a repistory into a new direcotry</li>
     <li>creates remote tracking for all the branches inside of it</li>
-    <li>git clone "URL" or you can do git clone -l "file path"</li>
+    <li>git clone "URL" or u can do git clone -l "file path"</li>
 </ol>
 <li>add</li>
 <ol>
     <li>add files to be tracked</li>
     <li>prepares the tracked files to be ready for a commit</li>
-    <li>holds a snapshot of the content within the working tree it is this snapshot that is pushed with a commit </li>
+    <li>holds a snapshot of the content within the working tree it is this snapshot that is pushed witha a commit </li>
     <li>  git add "filepath" or git commit -a -m " message here "
 </ol>
 <li>rm</li>
