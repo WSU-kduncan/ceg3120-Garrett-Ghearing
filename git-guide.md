@@ -53,14 +53,14 @@
 <li>branch</li>
 <ol>
     <li>this command can be used to create,list and delete git branches</li>
-    <li></li>
-    <li></li>
+    <li>the purpose of the branch command is to allow you to work on a project without directly affecting the live product  </li>
+    <li>git branch "new Branch name"  git branch -D to force delete the branch. git branch -a will list all remote branches</li>
 </ol>
 <li>checkout</li>
 <ol>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>you can use git checkout to swtich branches or if needed to restore a working tree files</li>
+    <li>update files within working branch to match the index if you want to update from somewhere else you must clarify what branch</li>
+    <li>git checkout "branchname"</li>
 </ol>
 </ul>
 <h1> git files & folders </h1>
