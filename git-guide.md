@@ -1,0 +1,131 @@
+<h1> Command line git </h1>
+<ul>
+<li>committed</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>git status</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>clone</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>add</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>rm</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>commit</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>push</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>fetch</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>merge</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>pull</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>branch</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>checkout</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>init</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>remote</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+</ul>
+<h1> git files & folders </h1>
+<ul>
+<li>.git folder </li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>.gitignore file</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+
+<li>.git/hooks
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+</ul>
+<h1> GitHub </h1>
+
+<ul>
+<li>Pull requests</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>SSH authentication to repositories</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<li>Actions</li>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+</ul>
