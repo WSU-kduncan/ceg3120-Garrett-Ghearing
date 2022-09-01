@@ -67,9 +67,8 @@
 <ul>
 <li>.git folder </li>
 <ol>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>contains all necessary information for the project and all information relating comits and git repos</li>
+    <li>it is created when u do git init</li>
 </ol>
 <li>.gitignore file</li>
 <ol>
@@ -82,15 +81,13 @@
 <ul>
 <li>Pull requests</li>
 <ol>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>a pull request is when a someone sumbits code to be reviewed by the project manager the manager then decides if the code is in working condition if so the project manager will merge it with the project branch else the pull request will be denied</li>
+    <li>you open these from within the github website</li>
 </ol>
 <li>SSH authentication to repositories</li>
 <ol>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>ssh is a passwordless way to connect to github</li>
+    <li> In order to create this passwordless gate u need to go download the ssh key from the github website once done give the file permissions using chmod then you are ready </li>
 </ol>
 </ul>
 <h1> Resources </h1>
