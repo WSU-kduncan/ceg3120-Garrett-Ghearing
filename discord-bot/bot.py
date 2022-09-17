@@ -45,8 +45,8 @@ async def on_message(message):
     ]
 
     if message.content == '!tips':
-        response = random.choice(brooklyn_99_quotes)
-        response = random.choice(hitchhiker_quotes)
+        response = random.choice(helpful_tips)
+        response = random.choice(unhelpful_tips)
         await message.channel.send(response)
 
 client.run(TOKEN)
