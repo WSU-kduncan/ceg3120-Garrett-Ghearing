@@ -30,23 +30,21 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    brooklyn_99_quotes = [
-        'I\'m the human form of the 💯 emoji.',
-        'Bingpot!',
+    unhelpful_tips = [
+        'this is an unhelpful tip ',
         (
-            'Cool. Cool cool cool cool cool cool cool, '
-            'no doubt no doubt no doubt no doubt.'
+         
         ),
     ]
 
-    hitchhiker_quotes = [
-        'There is an art, it says, or rather, a knack to flying. The knack lies in learning how to throw yourself at the ground and miss.',
-        'It is a mistake to think you can solve any major problems just with potatoes.',
-        'In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.',
-        'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.',
+    helpful_tips = [
+        ' if you are minning dont forget to bring a light source.',
+        'If you are going camping dont forget to bring shelter',
+        'dont forget a life vest if you are going camping',
+        'A common mistake that people make is getting to close to wildlife',
     ]
 
-    if message.content == '!99':
+    if message.content == '!tips':
         response = random.choice(brooklyn_99_quotes)
         response = random.choice(hitchhiker_quotes)
         await message.channel.send(response)
