@@ -14,3 +14,9 @@
         <li> 'dont forget a life vest if you are going camping'</li>
         <li> 'A common mistake that people make is getting to close to wildlife'</li></ul></ul>
 
+<h1>Research</h1>
+<ul>
+<li>how to keep it always on</li><ul>
+<li>in order to keep the bot always on you need to deploy your bot to a cloud service. this will allow your bot to always be listenning. the reason for this is because it will not rely on your local machine to do the calculations</li>
+</ul>
+</ul>
