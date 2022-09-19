@@ -4,13 +4,14 @@ import discord
 import random
 from dotenv import load_dotenv
 
+intents = discord.Intents.default()
+intents.message_content = True
+
 load_dotenv()
-#print(os.getenv('DISCORD_TOKEN'))
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
-
-client = discord.Client()
+client = discord.Client(intents=intents)
 
 @client.event
 async def on_ready():
@@ -30,23 +31,16 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    unhelpful_tips = [
-        'this is an unhelpful tip ',
-        (
-         
-        ),
-    ]
-
     helpful_tips = [
+       
         ' if you are minning dont forget to bring a light source.',
         'If you are going camping dont forget to bring shelter',
         'dont forget a life vest if you are going camping',
         'A common mistake that people make is getting to close to wildlife',
-    ]
-
+     ]
     if message.content == '!tips':
+    #if message.content.startswith('$towel'):
         response = random.choice(helpful_tips)
-        response = random.choice(unhelpful_tips)
         await message.channel.send(response)
 
 client.run(TOKEN)
