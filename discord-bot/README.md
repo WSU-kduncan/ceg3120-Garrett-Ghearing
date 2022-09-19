@@ -7,7 +7,7 @@
 <h2>Usage</h2>
     <ul>
     <li>Inorder to call this bot use !tips</li>
-    <li> this will either give u a helpful tips or an unhelpful tip</li>
+    <li> this will either give u a helpful tips</li>
     <li>list of helpful tips:</li><ul>
         <li> if you are minning dont forget to bring a light source.'</li>
         <li> 'If you are going camping dont forget to bring shelter'</li>
