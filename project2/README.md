@@ -9,6 +9,7 @@ Part1 - Build a VPC
 ![succes subnet](https://user-images.githubusercontent.com/70773439/193670787-be9c816e-2b3b-4365-8262-a170eab21888.PNG)
 
 3. Create a internet gateway
+
 ![internetgateway](https://user-images.githubusercontent.com/70773439/193670381-e1137ede-72fe-4fa3-a0f6-35a054c858d6.PNG)
 ![internet succes](https://user-images.githubusercontent.com/70773439/193670454-8f6a153f-a073-4ef5-ba70-03a2e1da1d5d.PNG)
 ![instance proof](https://user-images.githubusercontent.com/70773439/193670547-8879d2fa-71d2-4c25-b9c3-f4940b6e7b08.PNG)
