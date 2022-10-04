@@ -36,34 +36,34 @@ part 2 - EC2 instances
 
 1. create a new instance Give a write up 
   
-  the ami i setup was ubuntu mainly because it is what i am use to 
-  the default username is ubuntu
-  the instance type i selected was t2.micro
+    the ami i setup was ubuntu mainly because it is what i am use to 
+    the default username is ubuntu
+    the instance type i selected was t2.micro
 
 2. attach the instance to your VPC explain how you did it 
    
-   i attached my instance to my vpc by going to the vpc section clicking the drop down menu then selecting Ghearing-VPC
+    i attached my instance to my vpc by going to the vpc section clicking the drop down menu then selecting Ghearing-VPC
 
 3. Determine whether a public IPv4 address will be auto assigned and justify your choice 
   
-  i decided to auto assign a IPv4 my reason to do this was just cut back the chance of me creating an error.
-  this did not make assigning a elastic IP address any harder or anymore steps.
+    i decided to auto assign a IPv4 my reason to do this was just cut back the chance of me creating an error.
+    this did not make assigning a elastic IP address any harder or anymore steps.
 
 4. attach a volume to your instance as discussed there are diff pathways to doing this say how you did it
 
-for selecting a volume for my instance what i did was find the section labeled configure storage and found the volume section I left everything default meaning i have 8 gigabyte reserved with gp2 
+   for selecting a volume for my instance what i did was find the section labeled configure storage and found the volume section I left everything default meaning i      have 8 gigabyte reserved with gp2 
 
 5. tag your instance with a "NAME" of "YOURLASTNAME-instance" say how you did this 
 
-at the start of the creating instansce their was a category labled name & tags so their i set up the tag Ghearing-Instance.
+   at the start of the creating instansce their was a category labled name & tags so their i set up the tag Ghearing-Instance.
 
 6. associate your secuirty group and say how you did it
 
-i did this by selecting "select existing secuirty group" I then clicked on ghearing=sg
+   i did this by selecting "select existing secuirty group" I then clicked on ghearing=sg
 
 7. reserve an associate an elastic IP address with your instance
 
-i did this by going down the list on the left side until saw elastic IP i then added a tag and completed the build i then pressed actions and associated it with my instance  
+   i did this by going down the list on the left side until saw elastic IP i then added a tag and completed the build i then pressed actions and associated it with my    instance  
 
 ![elasticIP](https://user-images.githubusercontent.com/70773439/193668717-559fc0ca-1a1e-4804-a866-53809e517847.PNG)
 ![associate eip](https://user-images.githubusercontent.com/70773439/193668743-c8841bf7-d69c-4dff-94e5-b3fca502e456.PNG)
@@ -73,7 +73,9 @@ i did this by going down the list on the left side until saw elastic IP i then a
 
 ![part8](https://user-images.githubusercontent.com/70773439/193668603-31535bfd-ed14-42fb-b104-3dcc651690e9.PNG)
 
-9.
+9. ssh into your instance change hostname to "yourlastname -ami"
+
+   I did this by using the commands below and followinf the guide you posted. I first did hostname just to see the result it came back as expected just my instance's      private ip i then copied the files like you recommended to do into the file hostname.old i then modified the following command in order for it to give the result      ghearing-ami
 
 ![proof i am in](https://user-images.githubusercontent.com/70773439/193723814-a04b2713-f972-41e0-9b03-3d3f3755f5c5.PNG)
 ![succesful copy](https://user-images.githubusercontent.com/70773439/193724093-63548b1e-0094-4c05-833f-e4dd7678949f.PNG)
