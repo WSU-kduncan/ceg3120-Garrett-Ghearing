@@ -72,7 +72,8 @@
 
 <h3>7. reserve an associate an elastic IP address with your instance</h3>
 
-    i did this by going down the list on the left side until saw elastic IP i then added a tag and completed the build i then pressed actions and associated it with my     instance  
+    i did this by going down the list on the left side until saw elastic IP i then added a tag and 
+    completed the build i then pressed actions and associated it with my instance  
 
 ![elasticIP](https://user-images.githubusercontent.com/70773439/193668717-559fc0ca-1a1e-4804-a866-53809e517847.PNG)
 ![associate eip](https://user-images.githubusercontent.com/70773439/193668743-c8841bf7-d69c-4dff-94e5-b3fca502e456.PNG)
@@ -84,13 +85,14 @@
 
 <h3>9. ssh into your instance change hostname to "yourlastname -ami"</h3>
 
-   I did this by using the commands below and followinf the guide you posted. I first did hostname just to see the result it came back as expected just my instance's      private ip i then copied the files like you recommended to do into the file hostname.old i then modified the following command in order for it to give the result      ghearing-ami
+      I did this by using the commands below and followinf the guide you posted. I first did hostname just to see the result it came back as expected just my                 instance's private ip i then copied the files like you recommended to do into the file hostname.old.
+      i then modified the following command in order for it to give the result ghearing-ami
 
 ![proof i am in](https://user-images.githubusercontent.com/70773439/193723814-a04b2713-f972-41e0-9b03-3d3f3755f5c5.PNG)
 ![succesful copy](https://user-images.githubusercontent.com/70773439/193724093-63548b1e-0094-4c05-833f-e4dd7678949f.PNG)
 ![proof](https://user-images.githubusercontent.com/70773439/193723909-4f38a52e-fb04-48ce-8222-4ab3e1dfa6c6.PNG)
 
-<h3>10. create a screenshot of your ssh connection to your instance makesure to show the hostname</h3>
+<h3>10. create a screenshot of your ssh connection to your instance make sure to show the hostname</h3>
 
 ![the good proof](https://user-images.githubusercontent.com/70773439/193726277-529a7472-86f6-4490-934c-92c93a27a3ba.PNG)
 
