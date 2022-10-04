@@ -79,7 +79,9 @@ part 2 - EC2 instances
 
 ![proof i am in](https://user-images.githubusercontent.com/70773439/193723814-a04b2713-f972-41e0-9b03-3d3f3755f5c5.PNG)
 ![succesful copy](https://user-images.githubusercontent.com/70773439/193724093-63548b1e-0094-4c05-833f-e4dd7678949f.PNG)
-![su![proof](https://user-images.githubusercontent.com/70773439/193723909-4f38a52e-fb04-48ce-8222-4ab3e1dfa6c6.PNG)
+![proof](https://user-images.githubusercontent.com/70773439/193723909-4f38a52e-fb04-48ce-8222-4ab3e1dfa6c6.PNG)
 
-10.
-![succes](https://user-images.githubusercontent.com/70773439/193724230-0e13b3d3-aef3-4fe7-99d7-cd21b0aa8b2b.PNG)
+10. create a screenshot of your ssh connection to your instance makesure to show the hostname
+
+![the good proof](https://user-images.githubusercontent.com/70773439/193726277-529a7472-86f6-4490-934c-92c93a27a3ba.PNG)
+
