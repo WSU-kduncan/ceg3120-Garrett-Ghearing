@@ -73,9 +73,11 @@ i did this by going down the list on the left side until saw elastic IP i then a
 
 ![part8](https://user-images.githubusercontent.com/70773439/193668603-31535bfd-ed14-42fb-b104-3dcc651690e9.PNG)
 
-9 & 10
+9.
 
 ![proof i am in](https://user-images.githubusercontent.com/70773439/193723814-a04b2713-f972-41e0-9b03-3d3f3755f5c5.PNG)
 ![succesful copy](https://user-images.githubusercontent.com/70773439/193724093-63548b1e-0094-4c05-833f-e4dd7678949f.PNG)
 ![su![proof](https://user-images.githubusercontent.com/70773439/193723909-4f38a52e-fb04-48ce-8222-4ab3e1dfa6c6.PNG)
+
+10.
 ![succes](https://user-images.githubusercontent.com/70773439/193724230-0e13b3d3-aef3-4fe7-99d7-cd21b0aa8b2b.PNG)
