@@ -16,7 +16,9 @@
 
 <h3>4. create a route table</h3> 
 ![route table](https://user-images.githubusercontent.com/70773439/193670062-25c4df72-a902-48dc-949b-0f2d06691eb8.PNG)
+
 ![route table assoc](https://user-images.githubusercontent.com/70773439/193670104-2c0152bb-fc59-4c68-b58b-2ca063e9d806.PNG)
+
 ![route rule](https://user-images.githubusercontent.com/70773439/193670203-b4c6202b-e4d1-4b83-80f1-ed91adcecf1f.PNG)
 
 <h3>5. create a secuirty group</h3>
@@ -29,14 +31,15 @@
 
 <h3>6. create a key pair</h3>
 
-   i did not need to do this 
+    i did not need to do this 
 
 
 <h1>part 2 - EC2 instances</h1> 
 
 <h3>1. create a new instance Give a write up</h3> 
   
-    the ami i setup was ubuntu mainly because I have used the ubuntu user for several other classes and I can easily see an issue arriving with me attempting to use       the wrong user to log onto my instance. 
+    the ami i setup was ubuntu mainly because I have used the ubuntu user for several other classes and 
+    I can easily see an issue arriving with me attempting to use the wrong user to log onto my instance. 
     the default username is ubuntu
     the instance type i selected was t2.micro
 
@@ -51,19 +54,19 @@
 
 <h3>4. attach a volume to your instance as discussed there are diff pathways to doing this say how you did it</h3>
 
-   for selecting a volume for my instance what i did was find the section labeled configure storage and found the volume section I left everything default meaning i      have 8 gigabyte reserved with gp2 
+    for selecting a volume for my instance what i did was find the section labeled configure storage and found the volume section I left everything default meaning i       have 8 gigabyte reserved with gp2 
 
 <h3>5. tag your instance with a "NAME" of "YOURLASTNAME-instance" say how you did this </h3>
 
-   at the start of the creating instansce their was a category labled name & tags so their i set up the tag Ghearing-Instance.
+    at the start of the creating instansce their was a category labled name & tags so their i set up the tag Ghearing-Instance.
 
 <h3>6. associate your secuirty group and say how you did it</h3>
 
-   i did this by selecting "select existing secuirty group" I then clicked on ghearing=sg
+    i did this by selecting "select existing secuirty group" I then clicked on ghearing=sg
 
 <h3>7. reserve an associate an elastic IP address with your instance</h3>
 
-   i did this by going down the list on the left side until saw elastic IP i then added a tag and completed the build i then pressed actions and associated it with my    instance  
+    i did this by going down the list on the left side until saw elastic IP i then added a tag and completed the build i then pressed actions and associated it with my     instance  
 
 ![elasticIP](https://user-images.githubusercontent.com/70773439/193668717-559fc0ca-1a1e-4804-a866-53809e517847.PNG)
 ![associate eip](https://user-images.githubusercontent.com/70773439/193668743-c8841bf7-d69c-4dff-94e5-b3fca502e456.PNG)
