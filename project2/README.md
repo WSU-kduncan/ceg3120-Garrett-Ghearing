@@ -85,7 +85,8 @@
 
 <h3>9. ssh into your instance change hostname to "yourlastname -ami"</h3>
 
-      I did this by using the commands below and followinf the guide you posted. I first did hostname just to see the result it came back as expected just my       
+      I did this by using the commands below and followinf the guide you posted. 
+      I first did hostname just to see the result it came back as expected just my       
       instance's private ip i then copied the files like you recommended to do into the file hostname.old.
       i then modified the following command in order for it to give the result ghearing-ami
 
