@@ -23,7 +23,7 @@
      this shows the assocation to my subnet 
 ![route table assoc](https://user-images.githubusercontent.com/70773439/193670104-2c0152bb-fc59-4c68-b58b-2ca063e9d806.PNG)
 
-    this shows hte routing rules 
+    this shows the routing rules 
 ![route rule](https://user-images.githubusercontent.com/70773439/193670203-b4c6202b-e4d1-4b83-80f1-ed91adcecf1f.PNG)
 
 <h3>5. create a secuirty group</h3>
