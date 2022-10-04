@@ -1,6 +1,6 @@
 Part1 - Build a VPC 
 
-1. Create a VPC
+1. <h3>Create a VPC</h3>
 
 ![succes vpc](https://user-images.githubusercontent.com/70773439/193670729-8b316b2e-80a5-4a35-81d1-88b773ea87c0.PNG)
 
