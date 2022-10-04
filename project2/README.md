@@ -59,7 +59,8 @@
 
 <h3>4. attach a volume to your instance as discussed there are diff pathways to doing this say how you did it</h3>
 
-    for selecting a volume for my instance what i did was find the section labeled configure storage and found the volume section I left everything default meaning i       have 8 gigabyte reserved with gp2 
+    for selecting a volume for my instance what i did was find the section labeled configure storage and found the volume section 
+    I left everything default meaning i have 8 gigabyte reserved with gp2 
 
 <h3>5. tag your instance with a "NAME" of "YOURLASTNAME-instance" say how you did this </h3>
 
