@@ -16,11 +16,14 @@
 
 <h3>4. create a route table</h3> 
 
+     this screenshot shows succesful attachment to vpc 
+     
 ![succes route](https://user-images.githubusercontent.com/70773439/193727542-0cde1ff6-c2da-4691-9e7e-9c562fbfde4d.PNG)
 
-
+     this shows the assocation to my subnet 
 ![route table assoc](https://user-images.githubusercontent.com/70773439/193670104-2c0152bb-fc59-4c68-b58b-2ca063e9d806.PNG)
 
+    this shows hte routing rules 
 ![route rule](https://user-images.githubusercontent.com/70773439/193670203-b4c6202b-e4d1-4b83-80f1-ed91adcecf1f.PNG)
 
 <h3>5. create a secuirty group</h3>
