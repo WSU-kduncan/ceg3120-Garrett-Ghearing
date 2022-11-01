@@ -69,38 +69,24 @@ All said and done, your template should do the following:
     -  I used the two posted by you in the project 4 git repo and i used https://linuxhostsupport.com/blog/how-to-install-and-configure-haproxy-on-ubuntu/
 ## 4. Webserver 1 & 2 configuration & documentation requirements
   - How set up a webserver
-    - i added a directory mine was /var/www/connect then after this i made a file in it called index1.html i did this for both isntances
-    - after creating the file and directory above I then needed to configure the apache2 and add new config files the next thing i did was create a new directory /etc/apache2/sites-avaiable/connect/index1.conf inside of this file i added a configuration of a virtual host on server 80 this includes the server, severname, documentroot(where the index1.html is. next I needed to set this as the default configuration in order to gain access to it so the sequence of commands i did was sudo a2ensite connect.conf after this command i did sudo a2dissite 000-deafult.conf the purpose of these two commnands where to make my conf file default after these i then ran sudo systemctl restart apache2 in order to update the config files. 
-    - the site files were located inside /var/www/connect the ppurpose for them being located here is to keep it in a seperate directory this will allow you to be able to make multiple sites without needing more virtualhost systems for them to run in.
-    - sudo systemctl restart apache2
+    -What file(s) were modified and their location 
+       - I added a directory mine was /var/www/connect then after this i made a file in it called index1.html i did this for both isntances
+    - What configuration(s) were set (if any)
+      - after creating the file and directory above I then needed to configure the apache2 and add new config files the next thing i did was create a new directory /etc/apache2/sites-avaiable/connect/index1.conf inside of this file i added a configuration of a virtual host on server 80 this includes the server, severname, documentroot(where the index1.html is. next I needed to set this as the default configuration in order to gain access to it so the sequence of commands i did was sudo a2ensite connect.conf after this command i did sudo a2dissite 000-deafult.conf the purpose of these two commnands where to make my conf file default after these i then ran sudo systemctl restart apache2 in order to update the config files. 
+    - Where site content files were located (and why)
+      - the site files were located inside /var/www/connect the ppurpose for them being located here is to keep it in a seperate directory this will allow you to be able to make multiple sites without needing more virtualhost systems for them to run in.
+    - How to restart the service after a configuration change
+      - sudo systemctl restart apache2
     - Resources used (websites)
       - for this i only used the resources provided by you 
-What configuration(s) were set (if any)
-Where site content files were located (and why)
-How to restart the service after a configuration change
 
-From the browser, when connecting to the proxy server, take two screenshots.
-one screenshot that shows content from "server 1"
-one screenshot that shows content from "server 2"
-(Optional) - link to your proxy so I can click it.
-Resources and Warnings
-You DO NOT need to mess with UFW rules. You may lock yourself out of SSH access.
-You can have a maximum of FIVE Elastic IP Addresses and FIVE VPCs
-To manage resources & keep costs down, you will need to delete your CloudFormation stack in between build & test
-Note: feel free to share additional resources over in Discord. I'll be updating this if I see you guys sharing something useful
-An Introduction to HAProxy and Load Balancing Concepts
-The Four Essential Sections of an HAProxy Configuration
-How to Install the Apache Web Server on Ubuntu 20.04
-How to Install Nginx on Ubuntu 20.04
-How to edit /etc/hosts
-The SSH config file
-How to SFTP
-Submission
-Commit and push your changes to your repository. Verify that these changes show in your course
-repository, https://github.com/WSU-kduncan/ceg3120-YOURGITHUBNAME
-
-Your repo should contain:
-YOURLASTNAME-cf.yml
-README.md
-In Pilot, paste the link to your project folder.
-Sample link: https://github.com/WSU-kduncan/ceg3120-YOURGITHUBUSERNAME/blob/main/Projects/Project4
+5. From the browser, when connecting to the proxy server, take two screenshots.
+  - one screenshot that shows content from "server 1"
+    - I ran into a issue here i am unsure why I couldnt reach my sites I had correctly formed my haproxy and recieved no errors their I also quadrupled checked my secuirty rules they seem to have been fine as well. I checked my configurations for apache2 a lot and everything seemed fine the only issue I had was when i tried to restart my apache2 system it would ask for a password even with sudo or switching to root as my user. I thought that It still went through but I am unsure if it did. -    - so how did i try to solve this issue?
+      - I attempted to solve this issue I was having by deleting my stack and restarting it from scratch i made sure to not look at my old resources so that way I would hopefully protect myself from accidentally duplicating the mistake that was causing this issue. however, this did not work after I got back to finishing the setup for my apache2 severs I had the same prompt arise.
+      - After this I did some googling(should have done this first but i was extremely frustrasted and decided to nuke it). however googling my issue I came across many unhelpful articles all telling me to use sudo even though I was.
+      - next I decided to look around the internet on how to do it all via command line from one instance to try to narrow down which instance was causing the issue i found a very helpful article to do this it is listed in (resources for haproxy). after following this succesfully i determiend that their was no errors inside of my proxy instance 
+      - next I decided to go check the subnetting on my instances however it seemed all correct here as well specially considering I was able to ssh sever1 to go to server one and ssh server 2 to go to server2
+      - after this I just accepted defat. however, it wasnt a complete waste i feel like I learned alot by researching my issue in an attempt to solve it. 
+  - one screenshot that shows content from "server 2"
+ 6. (Optional) - link to your proxy so I can click it.
